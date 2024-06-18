@@ -26,3 +26,14 @@ This project provides a server to handle proof-of-work (PoW) computations for di
    ```bash
    npm start
    ```
+
+
+## Client Repositories
+
+- Rust Client: [blockchain-pow-benchmark-client-rust](https://github.com/ferrerallan/blockchain-pow-benchmark-client-rust)
+- Node.js Client: [blockchain-pow-benchmark-client-node](https://github.com/ferrerallan/blockchain-pow-benchmark-client-node)
+- Python Client: [blockchain-pow-benchmark-client-python](https://github.com/ferrerallan/blockchain-pow-benchmark-client-python)
+
+## License
+
+This project is licensed under the MIT License.
