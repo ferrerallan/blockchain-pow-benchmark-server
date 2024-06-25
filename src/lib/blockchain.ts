@@ -3,6 +3,7 @@
 import Block from './block';
 import Validation from './validation';
 import BlockInfo from './blockInfo';
+import colors from "colors";
 
 export default class Blockchain {
   blocks: Block[];
@@ -34,7 +35,8 @@ export default class Blockchain {
       this.getDifficulty()
     );
     if (!validation.success) {
-      console.log(validation.message);
+      console.log(colors.red(validation.message));
+      
       return new Validation(false, validation.message);
     }
     this.blocks.push(block);
